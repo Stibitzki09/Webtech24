@@ -1,11 +1,14 @@
 input{
-    border: 5px solid black;
+    border: 1px solid black;
     border-radius: 2px;
     }
 
-    input:valid{
+input:valid{
         border-color: green;
     }
-    input:invalid{
+input:invalid{
         border-color: red;
     }
+input[required]::after{
+    content: "(Erforderliches Feld)";
+}
