@@ -1,0 +1,11 @@
+input{
+    border: 5px solid black;
+    border-radius: 2px;
+    }
+
+    input:valid{
+        border-color: green;
+    }
+    input:invalid{
+        border-color: red;
+    }
